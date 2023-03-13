@@ -9,7 +9,8 @@ export default function Partners() {
         <h3>Agencies</h3>
         <p>We are honoured to have these amazing agencies</p>
       </div>
-      <Marquee gradient={false}>
+    {/*   scrollamount="20" */}
+      <Marquee gradient={false} speed={50}>
         <div className={styles.partners}>
           <img className="pe-none" src="/img/partners/Logo 01.png" alt="" />
           <img className="pe-none" src="/img/partners/Logo 02.png" alt="" />

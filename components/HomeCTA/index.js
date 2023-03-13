@@ -12,7 +12,7 @@ export default function HomeCTA() {
 
         <div className="mt-5 text-center">
           <Link href="/signup">
-            <a className="btn btn-light px-4 me-3">Sign Up</a>
+            <a className="btn  btn-outline-light px-4 me-3">Sign Up</a>
           </Link>
           <Link target="_blank" href="/subdivisions">
             <a className="btn btn-outline-light px-4">Browse</a>

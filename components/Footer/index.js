@@ -17,6 +17,7 @@ export default function Footer() {
                 }
               </small>
             </div>
+
             <div className="my-2">
               <i className="fas fa-phone-alt color-dark me-2" />
               <small className="color-dark">{"302-5800, 302-5822"}</small>
@@ -26,6 +27,7 @@ export default function Footer() {
               <small className="color-dark">{"info@dohbahamas.com"}</small>
             </div>
           </div>
+
           <div className="col-12 col-md-6 col-lg-4 mt-5 mt-md-3 mt-lg-3">
             <h4 className="color-dark">Quick Links</h4>
             <div className="d-flex justify-content-between">
@@ -77,6 +79,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
+          
           <div className="col-12 col-md-6 col-lg-4 mt-5 mt-lg-3">
             <h4>Keep Updated</h4>
             <form>

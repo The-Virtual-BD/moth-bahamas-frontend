@@ -60,14 +60,16 @@ input[type="checkbox"].invalid {
   background: #00a388 !important;
 }
 
+
 .navbar-light .navbar-nav .nav-link {
   color: #193441;
   font-size: 18px;
   font-weight: 500;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   margin: 0 5px;
   /* padding-right: 25px; */
   padding: 10px 20px;
+  transition: color .01s ease-in-out, border-bottom .01s ease-in-out;
 }
 
 .navbar-light .navbar-nav .nav-link.active {

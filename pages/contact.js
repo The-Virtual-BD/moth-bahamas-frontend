@@ -35,6 +35,7 @@ export default function Contact() {
             <h4 className="text-center text-dark">Visit Our Office Location</h4>
           </div>
           <div className="row mt-5">
+            
             <div className="col-12 col-lg-4 mb-5">
               <div className="card card-shadow" style={{ height: 200 }}>
                 <div className="card-body text-center p-0 pb-3">
@@ -55,6 +56,7 @@ export default function Contact() {
                 </div>
               </div>
             </div>
+
             <div className="col-12 col-lg-4 mb-5">
               <div className="card card-shadow" style={{ height: 200 }}>
                 <div className="card-body text-center p-0 pb-3">
@@ -69,6 +71,7 @@ export default function Contact() {
                 </div>
               </div>
             </div>
+
             <div className="col-12 col-lg-4 mb-5">
               <div className="card card-shadow" style={{ height: 200 }}>
                 <div className="card-body text-center p-0 pb-3">
@@ -87,6 +90,7 @@ export default function Contact() {
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>

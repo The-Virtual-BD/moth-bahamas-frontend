@@ -18,6 +18,8 @@ export default function OtherWebsites() {
       href: "/meteorology",
     },
   ];
+
+  
   return (
     <div className="py-5 bg-light">
       <div className="container">
