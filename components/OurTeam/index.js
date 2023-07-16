@@ -3,10 +3,11 @@ import TeamCard from "components/TeamCard";
 export default function OurTeam() {
   const data = [
     {
-      name: "Antoinette Thompson, BSc, MSc",
-      designation: "Permanent Secretary",
-      photo: "/img/team/1.jpg",
-      email: "antoinettethompson@bahamas.gov.bs",
+      name: " Dr. Donna Miller",
+      designation: "Acting Permanent Secretary",
+      photo: "/img/logo.png",
+      email: "",
+      // email: "antoinettethompson@bahamas.gov.bs",
       phone: "",
     },
     {
