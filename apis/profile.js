@@ -6,8 +6,10 @@ export const getProfileData = async () => {
 };
 
 export const updateProfileData = async (data) => {
+  console.log(data);
   try {
-    const response = await axios.post("/profile", data);
+    const response = await axios.put("/profile", data);
+    console.log(response)
     return response.data;
   } catch (error) {
     console.log(error.message);

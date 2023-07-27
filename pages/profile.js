@@ -238,13 +238,16 @@ function Profile() {
     formState: { errors },
   } = useForm();
 
+
   const onSubmit = async (data) => {
+    // console.log(data)
     try {
       const res = await updateProfileData(data);
+      console.log(res)
       setProfile(res);
-      setEditing(false);
+      // setEditing(false);
       toast.success("Profile updated");
-      location.reload();
+      // location.reload();
     } catch (error) {
       toast.error("Something went wrong");
     }

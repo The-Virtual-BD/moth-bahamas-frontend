@@ -11,9 +11,9 @@ export default function OurTeam() {
       phone: "",
     },
     {
-      name: "Gaynell Rolle MBA, CRMA",
+      name: "Gaynell Rolle, MBA, CRMA, CTEP, CMA",
       designation: "Under Secretary",
-      photo: "/img/team/2.jpeg",
+      photo: "/img/team/1-1.jpg",
       email: "gaynellrolle@bahamas.gov.bs",
       phone: "",
     },
